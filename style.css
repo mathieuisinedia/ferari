@@ -1,0 +1,39 @@
+#loading2 {
+    position: absolute;
+  margin-left: -1205px;
+  padding: 10%;
+  top: -05px;
+}
+
+#loading3 {
+    position: absolute;
+  margin-left:-33%;
+  padding: 10%;
+  top: -05px;
+}
+
+#loading2 {
+    -webkit-animation: rotation 0s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(378deg);
+    }
+}
+
+#loading3 {
+    -webkit-animation: rotation 0.01s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(378deg);
+    }
+}
